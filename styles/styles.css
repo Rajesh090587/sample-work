@@ -102,7 +102,7 @@ body {
 }
 
 .header-content h1 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 500;
   color: white;
   margin: 0;
@@ -130,6 +130,8 @@ body {
   padding: 15px 30px;
   border: 2px solid white;
   box-sizing: border-box;
+  max-width: 250px;
+  cursor: pointer;
 }
 
 .btn-download {
@@ -221,6 +223,7 @@ body {
 .grid-container > .button {
   grid-area: btn;
   grid-column: 3/5;
+  z-index: 1;
 }
 
 .grid-container > .img-warpper {
@@ -358,6 +361,7 @@ body {
   bottom: -9px;
   margin: 0;
   padding: 0;
+  color: rgb(154 148 148);
 }
 
 .footer > .header-wrapper {
@@ -377,4 +381,16 @@ body {
   width: 40px;
   background: rgba(244, 244, 244, 255);
   border-radius: 7px;
+}
+
+.button > .download-container {
+  border: 2px solid rgba(235, 75, 138, 255);
+}
+
+.button > .download-container > .btn-download {
+  color: rgba(235, 75, 138, 255);
+}
+
+.footer-hint {
+  color: rgba(180, 225, 245, 255);
 }
