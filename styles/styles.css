@@ -57,6 +57,7 @@ body {
 .dribble-section {
   background-color: white;
   top: -400px;
+  padding-top: 100px;
 }
 
 .header-wrapper {
@@ -116,7 +117,7 @@ body {
   margin-top: 0;
 }
 
-.header-content p.reqular {
+p.reqular {
   font-weight: lighter;
   margin-top: 0;
   line-height: 15px;
@@ -214,6 +215,8 @@ body {
 .grid-container > .header {
   grid-area: head;
   grid-column: 3/4;
+  font-size: 35px;
+  color: rgb(127 121 121);
 }
 
 .grid-container > .paragraph {
@@ -225,6 +228,7 @@ body {
   grid-area: btn;
   grid-column: 3/5;
   z-index: 1;
+  margin-top: 25px;
 }
 
 .grid-container > .img-warpper {
